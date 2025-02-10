@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "368f2e58-903c-442a-aaa4-7079db991cc7")
+	(paper "A4")
+	(title_block
+		(date "2025-02-10")
+	)
+	(lib_symbols)
+	(sheet
+		(at 7.62 181.61)
+		(size 19.05 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84236b51-2523-428f-95b5-99a86cdef3dd")
+		(property "Sheetname" "Miscellaneous"
+			(at 7.62 180.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Miscellaneous.kicad_sch"
+			(at 7.62 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EMB-XXXXX-Y.Z PrjName"
+				(path "/368f2e58-903c-442a-aaa4-7079db991cc7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

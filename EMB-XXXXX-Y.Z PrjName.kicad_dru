@@ -1,0 +1,57 @@
+(version 1)
+
+#PROJECT-SPECIFIC RULES
+# High Voltage clearance 100V
+(rule "100V Clearance"
+	(severity error)
+	(condition "A.NetClass == 'HV' && B.NetClass != 'HV'")
+	(constraint clearance (min 1mm)))
+
+# Filled Zone thermal relief connection on sizes from 0402 and 0201
+(rule "Thermal relief on 0402 and 0201"
+	(severity error)
+	(condition "A.memberOfFootprint('Capacitor_SMD:C_0402_1005Metric') || A.memberOfFootprint('Resistor_SMD:R_0402_1005Metric') || A.memberOfFootprint('Capacitor_SMD:C_0201_0603Metric') || A.memberOfFootprint('Resistor_SMD:R_0201_0603Metric')")
+	(constraint thermal_spoke_width (min 0.25mm))
+	(constraint thermal_relief_gap (min 0.2mm)))
+
+# Filled Zone direct connections
+(rule "Direct connections"
+	(severity error)
+	(condition "A.memberOfFootprint('Package_TO_SOT_SMD:TO-263-5_TabPin3')")
+	(constraint zone_connection solid))
+
+# Clearance around specific footprint
+(rule "Clearance of 0.15mm around footprint_name"
+    (constraint clearance (min 0.15mm))
+    (condition "A.memberOfFootprint('footprint_name')"))
+
+
+# HIGH SPEED SIGNALS RULES
+# Single-ended signals
+(rule "Single-Ended Outer 50Ohm"
+	(severity error)
+	(layer outer)
+	(condition "A.NetClass == 'RF'")
+	(constraint track_width (min 0.24mm) (opt 0.25mm) (max 0.26mm)))
+
+(rule "Single-Ended Inner 50Ohm"
+	(severity error)
+	(layer inner)
+	(condition "A.NetClass == 'RF'")
+	(constraint track_width (min 0.23mm) (opt 0.24mm) (max 0.25mm)))
+
+
+# Differential pair signals
+(rule "Differential Outer 100Ohm"
+	(severity error)
+	(layer outer)
+	(condition "A.NetClass == 'LVDS'")
+	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.21mm))
+	(constraint track_width (min 0.2mm) (opt 0.2mm) (max 0.21mm)))
+
+(rule "Differential Inner 100Ohm"
+	(severity error)
+	(layer inner)
+	(condition "A.NetClass == 'LVDS'")
+	(constraint diff_pair_gap (min 0.17mm) (opt 0.18mm) (max 0.19mm))
+	(constraint track_width (min 0.17mm) (opt 0.18mm) (max 0.19mm)))
