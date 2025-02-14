@@ -1,0 +1,162 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "PCBCode"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "Co"
+			(at -4.826 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "e-mbedLocalLib:PCBCodeCopper"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PCBCode_1_1"
+			(text "PCB code"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 0 132 0 1)
+					)
+				)
+			)
+			(text_box "${PCB_Code}-${PCB_Version}"
+				(at -5.715 1.905 0)
+				(size 11.43 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 132 0 1)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(color 0 132 0 1)
+					)
+				)
+			)
+		)
+	)
+	(symbol "e-mbedLogo"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "Lo"
+			(at -3.556 3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "e-mbedLocalLib:e-mbedTextCopperMedium"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "e-mbedLogo_1_1"
+			(text "logo"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 57 99 135 1)
+					)
+				)
+			)
+			(text_box "e-mbed"
+				(at -4.445 1.905 0)
+				(size 8.89 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+					(color 57 99 135 1)
+				)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(face "Orbitron")
+						(size 1.27 1.27)
+						(color 57 99 135 1)
+					)
+				)
+			)
+		)
+	)
+)

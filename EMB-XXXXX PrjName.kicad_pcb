@@ -576,7 +576,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.75 0)
+			(at -8.4 0 0)
 			(layer "F.Fab")
 			(uuid "f819eec4-207e-4545-a55e-029308da6028")
 			(effects
@@ -783,104 +783,6 @@
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
 			(uuid "3058b791-d626-466b-a75b-6026dfb7bbef")
-		)
-	)
-	(footprint "e-mbedLocalLib:PCBCodeCopper"
-		(layer "F.Cu")
-		(uuid "a070b3fc-9648-486d-b1e5-89aaa33c52e1")
-		(at 143.985786 135.685786)
-		(property "Reference" "Co1"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "841ea4a4-191d-4872-bb5d-ccf1c095137e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "b22fa107-ec24-49e1-a3ba-d354709566f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "e-mbedLocalLib:PCBCodeCopper"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e1df8c0-ae03-4964-a041-27127d68858e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "733481f4-9be0-45cf-a7aa-4ef83ac6907f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b026c19-8be3-44c6-84e6-3697d20f885b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/84236b51-2523-428f-95b5-99a86cdef3dd/a30632fa-016d-4ad6-a0cb-260073a5ad16")
-		(sheetname "Miscellaneous")
-		(sheetfile "Miscellaneous.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_text user "${PCB_Code}-${PCB_Revision}"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "F.Cu")
-			(uuid "9f1185c6-bb43-4861-b7e6-7be6e75034ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a024f91c-8486-4dde-8559-50ecdf7c7a86")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580"
@@ -1225,6 +1127,104 @@
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
 			(uuid "08a6dfe9-bf8a-4b9d-887e-52cf901007cd")
+		)
+	)
+	(footprint "e-mbedLocalLib:PCBCodeCopper"
+		(layer "F.Cu")
+		(uuid "efb7d8fa-f70a-4b40-ba6c-25e976590a0f")
+		(at 145.785786 135.785786)
+		(property "Reference" "Co1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ef5c4c8-6aaa-4b85-b054-29d4b9f35d47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "09601148-45f3-4fb5-a794-8f7e5fdff2a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "e-mbedLocalLib:PCBCodeCopper"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "525752ec-fdab-48fb-bc42-afe2915f83ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da14373e-a75c-4473-a863-0d57a9e3f237")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a587704-a9cf-4c7a-91e1-5986ae0ea447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/84236b51-2523-428f-95b5-99a86cdef3dd/78b2b01a-ec63-46d5-9901-77e012a4f0a6")
+		(sheetname "Miscellaneous")
+		(sheetfile "Miscellaneous.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${PCB_Code}-${PCB_Revision}"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "F.Cu")
+			(uuid "86764cfe-fdda-4b17-9ef4-e878df258f95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2543902c-79be-41eb-846b-14862a219af4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"

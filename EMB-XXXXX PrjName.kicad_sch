@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "EMB-XXXXX-Y.Z PrjName"
+			(project "EMB-XXXXX PrjName"
 				(path "/368f2e58-903c-442a-aaa4-7079db991cc7"
 					(page "2")
 				)

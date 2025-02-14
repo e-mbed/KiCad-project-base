@@ -169,7 +169,7 @@
 				)
 			)
 		)
-		(symbol "PCBCode_1"
+		(symbol "e-mbedLocalLib:PCBCode"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCBCode_1_1_1"
+			(symbol "PCBCode_1_1"
 				(text "PCB code"
 					(at -0.254 -2.54 0)
 					(effects
@@ -226,7 +226,7 @@
 						)
 					)
 				)
-				(text_box "PW-XXXXX-Y.Z"
+				(text_box "${PCB_Code}-${PCB_Revision}"
 					(at -5.715 1.905 0)
 					(size 11.43 -3.81)
 					(stroke
@@ -741,18 +741,17 @@
 		)
 	)
 	(symbol
-		(lib_name "PCBCode_1")
 		(lib_id "e-mbedLocalLib:PCBCode")
-		(at 153.67 16.51 0)
+		(at 152.4 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a30632fa-016d-4ad6-a0cb-260073a5ad16")
+		(uuid "78b2b01a-ec63-46d5-9901-77e012a4f0a6")
 		(property "Reference" "Co1"
-			(at 160.02 16.4478 0)
+			(at 158.75 16.4478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +760,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 160.02 18.3529 0)
+			(at 158.75 18.3529 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +769,7 @@
 			)
 		)
 		(property "Footprint" "e-mbedLocalLib:PCBCodeCopper"
-			(at 153.67 16.51 0)
+			(at 152.4 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,7 +778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 16.51 0)
+			(at 152.4 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,7 +787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 16.51 0)
+			(at 152.4 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
